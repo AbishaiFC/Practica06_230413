@@ -1,0 +1,35 @@
+{
+  "name": "practica06_230413",
+  "version": "1.0.0",
+  "description": "Practica de creación de sesiones HTTP, con el uso de variables de sesión de manera persistente con la integración de Base de Datos con MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbishaiFC/Practica06_230413.git"
+  },
+  "keywords": [],
+  "author": "0. Abishai Flores Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbishaiFC/Practica06_230413/issues"
+  },
+  "homepage": "https://github.com/AbishaiFC/Practica06_230413#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "moment-timezone": "^0.5.47",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0",
+    "os": "^0.1.2",
+    "request-ip": "^3.3.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
